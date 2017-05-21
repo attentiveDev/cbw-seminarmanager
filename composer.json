@@ -1,0 +1,16 @@
+{
+ "autoload": {
+ "psr-0": {
+ "Models": "./src/",
+ "Repositories": "./src/",
+ "Validators": "./src/"
+ }
+},
+
+  "require": {
+    "php": ">=5.3.2",
+    "doctrine/orm": "2.2.3",
+    "gedmo/doctrine-extensions": "2.3.6",
+    "webmasters/doctrine-extensions": "2.4.0"
+  }
+}
