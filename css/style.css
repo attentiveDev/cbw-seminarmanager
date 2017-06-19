@@ -1,0 +1,94 @@
+/* style.css - additional styling for bootsttrap & co. */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    overflow-y:scroll;
+}
+
+body {
+    background-color: #e5e5ef;
+    background: -webkit-linear-gradient(#c3c3cf, #e5e5ef) fixed; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c3c3cf, #e5e5ef) fixed; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c3c3cf, #e5e5ef) fixed; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c3c3cf, #e5e5ef) fixed; /* Standard syntax */
+}
+
+/* ensure that html tags are block elements in older browsers */
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+.glyphicon {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.debug {
+    border: 1px solid black;
+    background-color: #fff;
+    color: #f00;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+    line-height: 1.5em;
+    padding: 5px;
+    margin: 15px;
+}
+
+.usermessage {
+    color: #090;
+}
+
+footer p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9em;
+}
+
+.btn {
+    margin-right: 10px;
+    box-shadow: 1px 1px 2px lightgrey;
+}
+
+nav {
+    margin: 15px 15px 5px 15px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.panel, .jumbotron {
+    box-shadow: 1px 1px 2px darkgrey;
+}
+
+.panel-primary {
+    margin: 25px 15px 0px 15px;
+}
+
+a.navbar-brand{
+    color: #fff !important;
+    text-shadow: 1px 1px 2px lightblue;
+}
+
+.label-info, .label-default {
+    font-size: 1.0em;
+    padding: 4px;
+    font-weight: normal;
+}

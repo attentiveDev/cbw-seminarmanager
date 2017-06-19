@@ -1,0 +1,16 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://demo26.solution-developer.de/$1 [R,L]
+
+AuthName        "Seminarmanager Demo"
+AuthType        Basic
+AuthUserFile    /mnt/web004/d2/06/57475506/htdocs/.htuser
+require valid-user
+
+# Browser-Zugriff komplett verbieten
+Order Allow,Deny
+
+# Browser-Zugriff selektiv erlauben
+<FilesMatch "^(index\.php|.*\.(css|js|gif|jpe?g|png|php|woff2|svg|zip))?$">
+  Allow from all
+</FilesMatch>
