@@ -1,29 +1,33 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Der Seminarmanager entstand als Projektarbeit innerhalb meiner Weiterbildung zum Web-Developer 2016 innerhalb des Kurses zum Thema PHP & Frameworks.
+Als Framework wurde hierbei Doctrine benutzt.
 
-### What is this repository for? ###
+### Online Demo ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Unter diesem [Link](https://demo26.solution-developer.de/) finden Sie eine Online Demo des Seminar-Managers.
 
-### How do I get set up? ###
+Der Benutzername lautet demouser und das Passwort demo13507
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Sie können die Daten zurücksetzen in dem Sie folgenden [Link](https://demo26.solution-developer.de/demodata.php) benutzen.
 
-### Contribution guidelines ###
+### Die Installation ###
 
-* Writing tests
-* Code review
-* Other guidelines
+Zur Installation müssen folgende Schritte ausgeführt bzw. Dateien einmalig aufgerufen werden:
 
-### Who do I talk to? ###
+1. Erstellen Sie eine Datenbank mit dem Namen "seminarmanager" mit der Kollation "utf8_general_ci"
+2. Führen Sie die setup.php aus dem Wurzelverzeichnis aus. Hiermit wird die Datenbankstruktur erstellt.
+3. Führen Sie die demodata.php aus dem Wurzelverzeichnis aus. Hiermit werden Musterdaten angelegt.
+4. Alternativ können Sie das SQL-Backup mit der Bezeichnung "seminarmanager.sql" einspielen (empfohlen).
 
-* Repo owner or admin
-* Other community or team contact
+### Offene Punkte ###
+
+* Nachfrage beim Löschen von Datensätzen
+* Validierung von Eingaben (z. Bsp. bereits vorhandene Kategorien)
+* Weitere Spezifizierung der Seminardarstellung (z. Bsp. keine Kurse aus der Vergangenheit)
+
+### Erfahrungen ###
+
+* Die Erstellung der Datenbankstruktur über Doctrine ist eine tolle Funktion!
+* Leider ist das Debugging per var_dump() in Doctrine kaum möglich da die Objekte sehr umfangreich sind.
+* In einem Framework kommt man viel schneller zu einer arbeitsfähigen Lösung.
