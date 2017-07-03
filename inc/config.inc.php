@@ -6,10 +6,10 @@
 $connectionOptions = array(
     'default' => array(
         'driver' => 'pdo_mysql',
-        'dbname' => 'DB2882109',
-        'host' => 'rdbms.strato.de',
-        'user' => 'U2882109',
-        'password' => '9Cg7dOvReGNw'
+        'dbname' => 'cbw-seminarmanager',
+        'host' => 'localhost',
+        'user' => 'root',
+        'password' => ''
     )
 );
 
