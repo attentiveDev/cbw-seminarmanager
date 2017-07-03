@@ -9,25 +9,25 @@ Unter diesem [Link](https://demo26.solution-developer.de/) finden Sie eine Onlin
 
 Der Benutzername lautet demouser und das Passwort demo13507
 
-Sie kÃ¶nnen die Daten zurÃ¼cksetzen in dem Sie folgenden [Link](https://demo26.solution-developer.de/demodata.php) benutzen.
+Sie können die Daten zurücksetzen in dem Sie folgenden [Link](https://demo26.solution-developer.de/demodata.php) benutzen.
 
 ### Die Installation ###
 
-Zur Installation mÃ¼ssen folgende Schritte ausgefÃ¼hrt bzw. Dateien einmalig aufgerufen werden:
+Zur Installation müssen folgende Schritte ausgeführt bzw. Dateien einmalig aufgerufen werden:
 
 1. Erstellen Sie eine Datenbank mit dem Namen "seminarmanager" mit der Kollation "utf8_general_ci"
-2. FÃ¼hren Sie die setup.php aus dem Wurzelverzeichnis aus. Hiermit wird die Datenbankstruktur erstellt.
-3. FÃ¼hren Sie die demodata.php aus dem Wurzelverzeichnis aus. Hiermit werden Musterdaten angelegt.
-4. Alternativ kÃ¶nnen Sie das SQL-Backup mit der Bezeichnung "seminarmanager.sql" einspielen (empfohlen).
+2. Führen Sie die setup.php aus dem Wurzelverzeichnis aus. Hiermit wird die Datenbankstruktur erstellt.
+3. Führen Sie die demodata.php aus dem Wurzelverzeichnis aus. Hiermit werden Musterdaten angelegt.
+4. Alternativ können Sie das SQL-Backup mit der Bezeichnung "seminarmanager.sql" einspielen (empfohlen).
 
 ### Offene Punkte ###
 
-* Nachfrage beim LÃ¶schen von DatensÃ¤tzen
+* Nachfrage beim Löschen von Datensätzen
 * Validierung von Eingaben (z. Bsp. bereits vorhandene Kategorien)
 * Weitere Spezifizierung der Seminardarstellung (z. Bsp. keine Kurse aus der Vergangenheit)
 
 ### Erfahrungen ###
 
-* Die Erstellung der Datenbankstruktur Ã¼ber Doctrine ist eine tolle Funktion!
-* Leider ist das Debugging per var_dump() in Doctrine kaum mÃ¶glich da die Objekte sehr umfangreich sind.
-* In einem Framework kommt man viel schneller zu einer arbeitsfÃ¤higen LÃ¶sung.
+* Die Erstellung der Datenbankstruktur über Doctrine ist eine tolle Funktion!
+* Leider ist das Debugging per var_dump() in Doctrine kaum möglich da die Objekte sehr umfangreich sind.
+* In einem Framework kommt man viel schneller zu einer arbeitsfähigen Lösung.
