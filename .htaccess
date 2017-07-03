@@ -5,6 +5,3 @@ Order Allow,Deny
 <FilesMatch "^(index\.php|.*\.(css|js|gif|jpe?g|png|php|woff2|svg|zip))?$">
   Allow from all
 </FilesMatch>
-
-# Default Seite
-DirectoryIndex index.php
