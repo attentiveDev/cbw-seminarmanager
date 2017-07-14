@@ -1,7 +1,7 @@
 # README #
 
 Der Seminarmanager entstand als Projektarbeit innerhalb meiner Weiterbildung zum Web-Developer 2016 innerhalb des Kurses zum Thema PHP & Frameworks.
-Als Framework wurde hierbei Doctrine benutzt.
+Als Framework wurde hierbei Doctrine benutzt. Für die Realisierung war eine Zeit von 2 Tagen vorgesehen.
 
 ### Online Demo ###
 
@@ -25,9 +25,10 @@ Zur Installation müssen folgende Schritte ausgeführt bzw. Dateien einmalig aufge
 * Nachfrage beim Löschen von Datensätzen
 * Validierung von Eingaben (z. Bsp. bereits vorhandene Kategorien)
 * Weitere Spezifizierung der Seminardarstellung (z. Bsp. keine Kurse aus der Vergangenheit)
+* Demodaten erzeugen keine Kurse in der Vergangenheit
 
 ### Erfahrungen ###
 
-* Die Erstellung der Datenbankstruktur über Doctrine ist eine tolle Funktion!
+* Die Erstellung der Datenbankstruktur über Annotations bzw. Doctrine ist eine tolle Funktion!
 * Leider ist das Debugging per var_dump() in Doctrine kaum möglich da die Objekte sehr umfangreich sind.
 * In einem Framework kommt man viel schneller zu einer arbeitsfähigen Lösung.
