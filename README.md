@@ -30,5 +30,5 @@ Zur Installation müssen folgende Schritte ausgeführt bzw. Dateien einmalig aufge
 ### Erfahrungen ###
 
 * Die Erstellung der Datenbankstruktur über Annotations bzw. Doctrine ist eine tolle Funktion!
-* Leider ist das Debugging per var_dump() in Doctrine kaum möglich da die Objekte sehr umfangreich sind.
+* Leider ist das Debugging per var_dump() in Doctrine kaum möglich, da die Objekte sehr umfangreich sind.
 * In einem Framework kommt man viel schneller zu einer arbeitsfähigen Lösung.
