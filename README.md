@@ -1,6 +1,6 @@
 # README #
 
-Der Seminarmanager entstand als Projektarbeit innerhalb meiner Weiterbildung zum Web-Developer 2016 innerhalb des Kurses zum Thema PHP & Frameworks.
+Der Seminarmanager entstand als Projektarbeit im Rahmen meiner Weiterbildung zum Web-Developer innerhalb des Kurses zum Thema PHP & Frameworks.
 Als Framework wurde hierbei Doctrine benutzt. Für die Realisierung war eine Zeit von 2 Tagen vorgesehen.
 
 ### Online Demo ###
