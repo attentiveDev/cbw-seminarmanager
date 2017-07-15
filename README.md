@@ -18,7 +18,6 @@ Zur Installation müssen folgende Schritte ausgeführt bzw. Dateien einmalig aufge
 1. Erstellen Sie eine Datenbank mit dem Namen "seminarmanager" mit der Kollation "utf8_general_ci"
 2. Führen Sie die setup.php aus dem Wurzelverzeichnis aus. Hiermit wird die Datenbankstruktur erstellt.
 3. Führen Sie die demodata.php aus dem Wurzelverzeichnis aus. Hiermit werden Musterdaten angelegt.
-4. Alternativ können Sie das SQL-Backup mit der Bezeichnung "seminarmanager.sql" einspielen (empfohlen).
 
 ### Offene Punkte ###
 
